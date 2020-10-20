@@ -8,7 +8,7 @@ var sassMiddleware = require('node-sass-middleware');
 require('dotenv').config();
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var storyRouter = require('./routes/story');
 //const testRouter = require('./routes/test');
 
 var app = express();
@@ -31,7 +31,7 @@ app.use(sassMiddleware({
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/story', storyRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

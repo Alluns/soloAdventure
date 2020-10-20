@@ -3,3 +3,6 @@ extends layout
 block content
   h1= title
   p= story[0].body
+
+  each link in links
+    p= link.description
