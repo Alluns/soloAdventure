@@ -1,8 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  p= story[0].body
+  .paper
+    h1= title
+    p= story[0].body
 
-  each link in links
-    a(href=link.target_id)= link.description
+    each link in links
+      a(href=link.target_id)= link.description
