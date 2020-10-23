@@ -17,7 +17,7 @@ router.get('/:id', async function (req, res, next) {
       id: req.params.id,
       story: story,
       links: links,
-      title: "AdventofSoloÄventyr"
+      title: "Jätten, gesällen och bältet "
     });
 
   } catch (e) {

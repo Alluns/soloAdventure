@@ -5,4 +5,4 @@ block content
   p= story[0].body
 
   each link in links
-    p= link.description
+    a(href=link.target_id)= link.description
