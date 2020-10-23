@@ -1,22 +1,35 @@
 body {
-  padding: 50px;
-  font-size: 25px;
+  padding: 5rem;
+  font-size: 3rem;
   font-family: 'Unna', serif;
   background-image: url("/images/Book Red.jpg");
   background-size: cover; }
+
+h1 {
+  font-size: 60px;
+  font-family: 'UnifrakturCook', cursive;
+  text-align: center;
+  margin-top: 0; }
+
+a {
+  color: #00B7FF; }
 
 .paper {
   background-image: url("/images/Paper.jpg");
   width: 70%;
   margin: 0 auto 0 auto;
-  padding: 4rem; }
+  padding: 2rem 8rem 2rem 8rem; }
 
-h1 {
-  font-size: 60px;
-  font-family: 'UnifrakturCook', cursive;
-  text-align: center; }
+.options {
+  display: flex;
+  justify-content: space-evenly; }
 
-a {
-  color: #00B7FF; }
+.btn {
+  font-weight: bold;
+  text-decoration: none;
+  color: black; }
+
+.btn:hover {
+  color: darkred; }
 
 /*# sourceMappingURL=style.css.map */
